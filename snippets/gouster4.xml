@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- lineage additions -->
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-17.1" />
+          
+  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" remote="lineage"/>        
+  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="lineage" />
+  
+ 
+</manifest>
