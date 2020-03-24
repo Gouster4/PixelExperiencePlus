@@ -27,6 +27,6 @@ $ mka bacon -j$(nproc --all)
 
 ### Difference from Pixel Experience Plus ###
 
-LineageOS music player  Eleven
+Eleven - LineageOS music player  
 
-LineageOS equalizer     AudioFX
+AudioFX - LineageOS equalizer
