@@ -13,7 +13,7 @@
     <!-- vlc -->
     <remote name="lineage"
           fetch="https://github.com/videolan"
-          revision="lineage-17.1" />
+          revision="master" />
   
   <project path="packages/apps/vlc" name="vlc" remote="vlc" />
   
