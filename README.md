@@ -1,4 +1,4 @@
-# Pixel Experience #
+# Pixel Experience Plus #
 
 ### Sync ###
 
