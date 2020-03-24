@@ -10,5 +10,12 @@
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="lineage" />
   
+    <!-- vlc -->
+    <remote name="lineage"
+          fetch="https://github.com/videolan"
+          revision="lineage-17.1" />
+  
+  <project path="packages/apps/vlc" name="vlc" remote="vlc" />
+  
  
 </manifest>
