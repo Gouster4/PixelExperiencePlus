@@ -22,7 +22,7 @@ $ . build/envsetup.sh
 $ lunch aosp_$device-userdebug
 
 # Build the code
-$ mka bacon -jX
+$ mka bacon -j$(nproc --all)
 ```
 
 ### Submitting Patches ###
