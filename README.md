@@ -30,3 +30,5 @@ $ mka bacon -j$(nproc --all)
 Eleven - LineageOS music player  
 
 AudioFX - LineageOS equalizer
+
+Recorder - LineageOS Screen and sound recorder
