@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
-  <!-- Add gouster4 stuff -->
-  <include name="snippets/gouster4.xml" />
 
   <remote name="aosp"
           fetch="https://android.googlesource.com"
@@ -801,4 +798,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Add gouster4 stuff -->
+  <include name="snippets/gouster4.xml" />
+  
 </manifest>
