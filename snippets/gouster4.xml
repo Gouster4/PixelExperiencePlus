@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- lineage additions -->
+   <remote name="gouster4"
+          fetch="https://github.com/Gouster4"
+          revision="ten-plus" />
+  
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-17.1" />
-          
+  
+	<remote name="vlc"
+          fetch="https://github.com/videolan"
+          revision="master" />
+  
+  
+  <project path="build/gouster4" name="PixelExperiencePlus_build" groups="pdk" remote="gouster4" >
+    <linkfile src="target" dest="build/target" />
+  </project>
+  <remove-project name="PixelExperiencePlus_build" />
+  
+  
+  <!-- lineage additions -->       
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="lineage"/>        
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="lineage" />
   
     <!-- vlc -->
-    <remote name="vlc"
-          fetch="https://github.com/videolan"
-          revision="master" />
-  
   <project path="packages/apps/vlc" name="vlc" remote="vlc" />
-  
   
 </manifest>
