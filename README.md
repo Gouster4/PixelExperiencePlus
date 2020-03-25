@@ -24,7 +24,7 @@ $ cd ~/android
 # The Android build process expects python to be python2. Prepend it to the PATH
 $ mkdir bin
 $ ln -s /bin/python2 bin/python
-$ export PATH=$PWD/bin:$PAT
+$ export PATH=$PWD/bin:$PATH
 
 ```
 
