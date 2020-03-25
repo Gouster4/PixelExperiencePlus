@@ -18,10 +18,4 @@
   <project path="packages/apps/vlc" name="vlc" remote="vlc" />
   
   
-   <remote name="gouster4"
-          fetch="https://github.com/Gouster4"
-          revision="ten-plus" />
- <remove-project name="build/make" />
- <project path="build/make" name="PixelExperience-build" remote="gouster4" />
-   
 </manifest>
