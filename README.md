@@ -6,7 +6,7 @@
 ```bash
 
 # install packages
-sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip
+$ sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip
 
 ```
 
@@ -14,8 +14,8 @@ sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zl
 ```bash
 
 # create directory
-mkdir ~/android
-cd ~/android
+$ mkdir ~/android
+$ cd ~/android
 
 ```
 
@@ -34,10 +34,10 @@ $ export PATH=$PWD/bin:$PAT
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/Gouster4/PixelExperiencePlus -b ten-plus
+$ repo init -u https://github.com/Gouster4/PixelExperiencePlus -b ten-plus
 
 # Sync
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+$ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Build ###
