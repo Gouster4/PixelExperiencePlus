@@ -32,7 +32,8 @@
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   
   
-  <!-- lineage additions -->       
+  <!-- lineage additions -->
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="gouster4"/>  
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="lineage"/>        
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="lineage" />
