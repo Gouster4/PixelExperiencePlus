@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+  <!-- Add gouster4 stuff -->
+  <include name="snippets/gouster4.xml" />
 
   <remote name="aosp"
           fetch="https://android.googlesource.com"
@@ -7,19 +10,14 @@
 
   <remote name="github"
           fetch="https://github.com/" />
-  
-   <remote name="gouster4"
-          fetch="https://github.com/Gouster4"
-          revision="ten-plus" />
 
-  
   <default revision="refs/tags/android-10.0.0_r31"
            remote="aosp"
            sync-j="4"
            sync-c="true"
            sync-f="true" />
 
-  <project path="build/make" name="PixelExperiencePlus_build" groups="pdk" remote="gouster4" >
+  <project path="build/make" name="platform/build" groups="pdk" remote="gouster4" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -803,6 +801,4 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
-    <!-- Add all gouster4 stuff -->
-  <include name="snippets/gouster4.xml" />
 </manifest>
