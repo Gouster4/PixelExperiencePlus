@@ -8,8 +8,12 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-17.1" />
   
-	<remote name="vlc"
+	<remote name="videolan"
           fetch="https://github.com/videolan"
+          revision="master" />
+	
+	<remote name="jackpal"
+          fetch="https://github.com/jackpal"
           revision="master" />
 
 	
@@ -48,7 +52,10 @@
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="lineage"/>        
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" />
   
-    <!-- vlc -->
-  <project path="packages/apps/vlc" name="vlc" remote="vlc" />
+  <!-- vlc -->
+  <project path="packages/apps/vlc" name="vlc" remote="videolan" />
+	
+  <!-- terminal -->
+  <project path="packages/apps/terminal" name="Android-Terminal-Emulator" remote="jackpal" />
   
 </manifest>
